@@ -1,6 +1,6 @@
-# FloatingWindow
+# <a href="https://github.com/DarkTornado/FloatingWindow">FloatingWindow</a>
 
-© 2017 Dark Tornado, All rights reserved.
+© 2017 <a href="https://github.com/DarkTornado">Dark Tornado</a>, All rights reserved.
 
 FloatingWindow is as similar as PopupWinow, but it can be used in serverce because it is made with WindowManager.<br>
 It needs android.permission.SYSTEM_ALERT_WINDOW.<br>
