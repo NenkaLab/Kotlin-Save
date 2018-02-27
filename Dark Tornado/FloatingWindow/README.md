@@ -15,7 +15,7 @@ If you want to use as Dialog, please reference <a href="https://github.com/DarkT
 
 ### How to Use(?) 사용법(?)
 Create a class named FloatingWindow, FloatingWindowInterface, FloatingWindowException or FloatingWindowMix. (Copt+Paste)<br>
-FloatingWindow, FloatingWindowInterface, FloatingWindowException 이라는 클래스 만들고 복사+붙여넣기 하시면 됩니다
+FloatingWindow, FloatingWindowInterface, FloatingWindowException 이라는 클래스 만들고 복사+붙여넣기 하시면 됩니다<br>
 아니면 하나로 모아둔 FloatingWindowMix를 적용 하시면 됩니다.<br>
 
 <del>한줄 코딩 가능</del>
@@ -24,7 +24,7 @@ FloatingWindow, FloatingWindowInterface, FloatingWindowException 이라는 클�
 ### API
 
 
-if you set by FloatingWindowMix
+if you set by FloatingWindowMix<br>
 FloatingWindowMix로 설정하면
 
 - <b>FloatingWindowMix(context: Context)</b><br>
@@ -36,7 +36,7 @@ context is apps context. You can use this or getApplicationContext(). If isInclu
 context는 앱의 context값. this나 getApplicationContext()라고 적으면 됨. isIncludeEditText가 true라면 윈도우 밖 터치는 불가능하나, EditText에 텍스트 입력 가능.
 
 
-if you set by FloatingWindow
+if you set by FloatingWindow<br>
 FloatingWindow로 설정하면
 
 - <b>FloatingWindow(context: Context)</b><br>
