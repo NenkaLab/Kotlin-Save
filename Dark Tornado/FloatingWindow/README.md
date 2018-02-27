@@ -3,7 +3,7 @@
 © 2017 <a href="https://github.com/DarkTornado">Dark Tornado</a>, All rights reserved.
 
 FloatingWindow is as similar as PopupWinow, but it can be used in serverce because it is made with WindowManager.<br>
-It needs android.permission.SYSTEM_ALERT_WINDOW.<br>
+It needs <a href="https://developer.android.com/reference/android/Manifest.permission.html#SYSTEM_ALERT_WINDOW">android.permission.SYSTEM_ALERT_WINDOW</a>.<br>
 
 FloatingWindow는 WindowManager를 이용해서 만든 PopupWindow와 유사한 것입니다. 따라서, 서비스에서도 사용이 가능합니다.<br>
 android.permission.SYSTEM_ALERT_WINDOW 권한이 필요합니다.<br><br>
@@ -14,7 +14,7 @@ If you want to use as Dialog, please reference <a href="https://github.com/DarkT
 
 
 ### How to Use(?) 사용법(?)
-Make a class named FloatingWindow and Copt+Paste.<br>
+Create a class named FloatingWindow, FloatingWindowInterface, FloatingWindowException. (Copt+Paste)<br>
 FloatingWindow, FloatingWindowInterface, FloatingWindowException 이라는 클래스 만들고 복사+붙여넣기 하시면 됩니다.<br>
 
 <del>한줄 코딩 가능</del>
