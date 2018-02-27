@@ -1,7 +1,7 @@
 //package com.example.permissions; your app's package name
 
 /**
- * --------NenkaChat--------
+ * --Project FloatingWindow---
  * Created by nenka
  * Date : 2018-02-27 (2월 / 화요일)
  * Time : 오후 2:44
