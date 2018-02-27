@@ -22,13 +22,13 @@ FloatingWindow, FloatingWindowInterface, FloatingWindowException 이라는 클�
 
 ### API
 
-- <b>new FloatingWindow(Context ctx);</b><br>
-ctx is context of app. You can use this or getApplicationContext().<br>
-ctx는 앱의 context값. this나 getApplicationContext()라고 적으면 됨.
+- <b>FloatingWindow(context: Context)</b><br>
+context is apps context. You can use this or getApplicationContext().<br>
+context는 앱의 context값. this나 getApplicationContext()라고 적으면 됨.
 
-- <b>new FloatingWindow(Context ctx, boolean isIncludeEditText);</b><br>
-ctx is context of app. You can use this or getApplicationContext(). If isIncludeEditText is true, you can input text to EditText but you cannot touch outside of window's outside.<br>
-ctx는 앱의 context값. this나 getApplicationContext()라고 적으면 됨. isIncludeEditText가 true라면 윈도우 밖 터치는 불가능하나, EditText에 텍스트 입력 가능.
+- <b>FloatingWindow(context: Context, isIncludeEditText: Boolean)</b><br>
+context is apps context. You can use this or getApplicationContext(). If isIncludeEditText is true, you can input text to EditText but you cannot touch outside of window's outside.<br>
+context는 앱의 context값. this나 getApplicationContext()라고 적으면 됨. isIncludeEditText가 true라면 윈도우 밖 터치는 불가능하나, EditText에 텍스트 입력 가능.
 
 - <b>.dismiss()</b><br>
 Dismiss the FloatingWindow.<br>
