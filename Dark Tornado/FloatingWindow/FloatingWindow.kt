@@ -20,7 +20,7 @@ import android.widget.RelativeLayout
  * Time : 오후 2:39
  * ---------------------------
  */
-class FloatingWindow(val context: Context, val isIncludeEditText: Boolean? = null): FloatingWindowInterface{
+class FloatingWindow(private val context: Context, private val isIncludeEditText: Boolean? = null): FloatingWindowInterface{
 
     private var mManager: WindowManager? = null
     private var mParams: WindowManager.LayoutParams? = null
