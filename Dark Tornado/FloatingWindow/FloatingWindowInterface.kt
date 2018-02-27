@@ -45,7 +45,7 @@ interface FloatingWindowInterface {
 
     fun setBackgroundResource(@ColorRes resid: Int): FloatingWindow
 
-    fun setBackgroundDrawable(drawable: Drawable)
+    fun setBackgroundDrawable(drawable: Drawable): FloatingWindow
 
     fun setBackgroundTintList(colorStateList: ColorStateList): FloatingWindow
 
