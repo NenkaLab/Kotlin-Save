@@ -15,7 +15,7 @@ If you want to use as Dialog, please reference <a href="https://github.com/DarkT
 
 ### How to Use(?) 사용법(?)
 Make a class named FloatingWindow and Copt+Paste.<br>
-FloatingWindow라는 클래스 하나 만들고 소스 복사+붙여넣기 하시고 사용하시면 됩니다.<br>
+FloatingWindow, FloatingWindowInterface, FloatingWindowException 이라는 클래스 만들고 복사+붙여넣기 하시면 됩니다.<br>
 
 <del>한줄 코딩 가능</del>
 
