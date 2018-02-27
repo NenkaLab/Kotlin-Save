@@ -147,9 +147,10 @@ class FloatingWindow(private val context: Context, isIncludeEditText: Boolean? =
 
     @Deprecated("DEPRECATION", level = DeprecationLevel.WARNING)
     @Throws(FloatingWindowException::class)
-    override fun setBackgroundDrawable(drawable: Drawable) {
+    override fun setBackgroundDrawable(drawable: Drawable): FloatingWindow {
         @Suppress("DEPRECATION")
         layout!!.setBackgroundDrawable(drawable)
+        return this
     }
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
