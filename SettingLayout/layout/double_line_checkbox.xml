@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	app:cardBackgroundColor="@android:color/white"
+	app:cardElevation="4dp"
+	app:cardPreventCornerOverlap="false"
+	app:cardUseCompatPadding="false">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/body"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:id="@+id/textView"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="16dp"
+			android:clickable="false"
+			android:ellipsize="end"
+			android:focusable="false"
+			android:maxLines="1"
+			android:paddingEnd="100dp"
+			android:paddingStart="0dp"
+			android:singleLine="true"
+			android:text="DoubleLineSwitch"
+			android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="16dp"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="4dp"
+			android:clickable="false"
+			android:ellipsize="end"
+			android:focusable="false"
+			android:maxLines="5"
+			android:paddingEnd="100dp"
+			android:paddingStart="0dp"
+			android:text="Create by Nenka"
+			android:textColor="@color/lb_grey"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/textView"
+			app:layout_constraintVertical_bias="1.0"
+			tools:ignore="HardcodedText" />
+
+		<CheckBox
+			android:id="@+id/check1"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginStart="8dp"
+			android:clickable="true"
+			android:focusable="true"
+			android:foregroundGravity="right"
+			android:layoutDirection="rtl"
+			android:orientation="vertical"
+			android:paddingEnd="8dp"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:paddingStart="8dp"
+			android:textDirection="ltr"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.5" />
+	</android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
