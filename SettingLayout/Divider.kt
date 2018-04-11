@@ -6,13 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 
 
-/**
- * --------RunScript--------
- * Created by nenka
- * Date : 2018-03-11 (3월 / 일요일)
- * Time : 오후 1:27
- * ---------------------------
- */
+
 class Divider(private val context: Context?): DividerInterface {
 
 	private var line: View? = null
