@@ -1,2 +1,4 @@
 # SettingLayout
-By Nenka
+
+
+<h1>나는 미개한가 보다<del> 귀찮게 왜 인터페이스까지 ?</del></h1>
